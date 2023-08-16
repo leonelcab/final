@@ -1,0 +1,81 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cab6ae;
+}
+.card {
+    width: 290px;
+    height: 475px;
+    background: #928176c5;
+    border: 1px solid #928176c5;
+    box-shadow: 10px 10px 64px 0px #86766c;
+}
+.form {
+    padding: 25px;
+}
+.form a {
+    color: #ffffff;
+    font-size: small;
+    display: flex;
+    justify-content: end;
+}
+.card_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card_header i {
+    font-size: 55;
+    margin-right: 10px;
+}
+.card_header h1 {
+    font-size: 50;
+    color: #dddddd;
+}
+.field {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.input {
+    border-radius: 5px;
+    background-color: #e9e9f7;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #dadaf7
+}
+.input:focus-visible {
+    outline: 1px solid #352727;
+}
+.input::placeholder {
+    color: #636363;
+}
+label {
+    color: #dddddd;
+    font-size: 16px;
+    display: block;
+    padding-bottom: 4px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.buttonlogin {
+    background-color: #86766c;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px 34px;
+    font-weight: 500;
+    color: #dddddd;
+    border-radius: 2rem;
+    border: none;
+}
+button:hover {
+    background-color: #7c6c63;
+}
